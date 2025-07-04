@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>平凡社『大辭典』検索ヘルパー</title>
+		<link rel="shortcut icon" href="redKiwiBird.png">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="./hDaijiten.css">
+	</head>
+	<body>
+		<h1>平凡社『大辭典』（1934-1936）検索ヘルパー</h1>
+			<select class="toc-field" id="TOCSel" onchange="tocChange(this.value);"/>
+			</select>
+			<input type="text" id="EntryField" class="entry-field" placeholder="ひらがなで検索語を入力"/>
+			<br/>
+			<input type="button" id="SearchButton" class="buttons" value="検索（Enter）" onclick="search();"/>
+			<input type="button" id="clearButton" class="buttons" value="クリア（Escape）" onclick="clearField();"/>
+			<!--a id="HimaLink" href="javascript:iAmBored();">暇？</a-->
+		<div class="footer">
+			使用するには国立国会図書館デジタルコレクションの<a href="https://www.ndl.go.jp/jp/use/digital_transmission/individuals_index.html">個人向けデジタル化資料送信サービス</a>に登録、ログインしておく必要があります。
+		</div>
+		<script src="./assets/fullIndex.js"></script>
+		<script src="./scripts/hDaijiten.js"></script>
+	</body>
+</html>
+

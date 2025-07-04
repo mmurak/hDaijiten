@@ -1,0 +1,34 @@
+.toc-field{
+	font-size: 150%;
+	width: 100%;
+}
+.entry-field{
+	font-size: 200%;
+	width: 100%;
+}
+.buttons{
+	width: 48%;
+	min-width: 100px;
+	max-width: 400px;
+	padding: 10px 8px 10px 8px;
+	font-size: 150%;
+	box-sizing: border-box;
+	border: 1px solid #68779a;
+	background: #cbe8fa;
+	cursor: pointer;
+}
+.buttons:active {
+	box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+	transform: translateY(2px);
+}
+#HimaLink{
+	font-size: 150%;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: lightgray;
+	text-align: center;
+}
