@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>平凡社『日本人名大事典』検索</title>
+		<link rel="shortcut icon" href="redKiwiBird.png">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="./jinmeiDaijiten.css">
+	</head>
+	<body>
+		<h2>平凡社『日本人名大事典』（1979）検索</h2>
+			<select class="toc-field" id="TOCSel" onchange="tocChange(this.value);"/>
+			</select>
+			<input type="text" id="EntryField" class="entry-field" placeholder="ひらがなで検索語を入力" autocomplete="off"/>
+			<br/>
+			<input type="button" id="SearchButton" class="buttons" value="検索（Enter）" onclick="indexSearch();"/>
+			<input type="button" id="clearButton" class="buttons" value="クリア（Escape）" onclick="clearField();"/>
+			<br>
+			<input type="button" id="GSearchButton" class="buttons" value="現代編検索" onclick="gIndexSearch();"/>
+			<br>
+			<a id="HimaLink" href="javascript:iAmBored();">どこでもいいので第1〜6巻のページを開く</a>
+		<div class="footer">
+			使用するには国立国会図書館デジタルコレクションの<a href="https://www.ndl.go.jp/jp/use/digital_transmission/individuals_index.html">個人向けデジタル化資料送信サービス</a>に登録、ログインしておく必要があります。
+		</div>
+		<script src="./assets/jinmeiFullIndex.js"></script>
+		<script src="./scripts/regulatorNeo.js"></script>
+		<script src="./scripts/jinmeiDaijiten.js"></script>
+	</body>
+</html>
+

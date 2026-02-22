@@ -6,3 +6,6 @@
 
 https://mmurak.github.io/hDaijiten/ で実行可能です。
 
+平凡社『日本人名大事典』の検索アプリです。
+
+https://mmurak.github.io/hDaijiten/jinmeiDaijiten.html で実行可能です。
